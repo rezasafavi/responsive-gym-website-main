@@ -273,8 +273,40 @@ row-gap: 2.5rem;
 .home__description{
   margin-bottom: 2.5rem;
 }
+.home__triangle{
+  height: 325px;
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  clip-path: 100% 0,0 100% , 100% 100%;
+}
+.home__triangle-1{
+  width: 105px;
+  background-color: var(--first-color);
+}
+.home__triangle-2{
+  width: 205px;
+  background-color: var(--first-color-alt);
+}
+.home__triangle-3{
+  width: 305px;
+  background-color: var(--first-color-dark);
+}
+.home__image{
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: 350px;
+  margin: 0 auto;
+}
 /*=============== BUTTON ===============*/
-
+.button{
+  display: inline-block;
+  background-color: var(--first-color);
+  padding: 18px 32px;
+  border: 2px solid var(--first-color-light);
+  color: ;
+}
 
 /*=============== LOGOS ===============*/
 
