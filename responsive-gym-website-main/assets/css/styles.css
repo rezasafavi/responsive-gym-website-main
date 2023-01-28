@@ -232,6 +232,10 @@ row-gap: 2.5rem;
   color: var(--title-color);
   cursor: pointer;
 }
+.nav .nav__button{
+  background-color: var(--title-color);
+
+}
 /* Show menu */
 .show-menu{
   right: 0;
@@ -333,6 +337,17 @@ transform: translateX(.25rem);
 }
 
 /*=============== LOGOS ===============*/
+.logos__container{
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+  justify-items: center;
+}
+
+.logos__img{
+  width: 120px;
+
+  
+}
 
 
 /*=============== PROGRAM ===============*/
