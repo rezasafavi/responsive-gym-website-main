@@ -31,7 +31,13 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 
 
 /*=============== CHANGE BACKGROUND HEADER ===============*/
-
+const ScrollHeader = () => {
+    const HEADER = document.getElementById('header')
+    //When the scroll is greater than 50 viewport height, add the scroll-header tag
+    this.scrollY >= 50 ? HEADER.classList.add("bg-header")
+                       : HEADER.classList.remove("bg-header")
+}
+window.addEventListener('scroll',ScrollHeader)
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 

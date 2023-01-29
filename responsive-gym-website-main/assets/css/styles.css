@@ -242,7 +242,10 @@ row-gap: 2.5rem;
 }
 
 /* Change background header */
-
+.bg-header{
+  background-color: var(--body-color);
+  box-shadow: 0 4px 8px hsl(180, 12%, 4% ,.3);
+}
 
 /* Active link */
 
